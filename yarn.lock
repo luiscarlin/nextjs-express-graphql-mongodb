@@ -94,9 +94,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@demo/website-one@workspace:apps/website-one":
+"@demo/web-one@workspace:apps/web-one":
   version: 0.0.0-use.local
-  resolution: "@demo/website-one@workspace:apps/website-one"
+  resolution: "@demo/web-one@workspace:apps/web-one"
   dependencies:
     "@types/node": 16.11.10
     "@types/react": 17.0.37
