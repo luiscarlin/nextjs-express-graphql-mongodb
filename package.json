@@ -2,19 +2,14 @@
   "name": "demo",
   "packageManager": "yarn@3.1.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "libs/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "libs/*"
+    ]
+  },
   "scripts": {
     "web": "yarn workspace @demo/web",
     "server": "yarn workspace @demo/server"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8",
-    "@types/prettier": "^2",
-    "eslint": "^8.3.0",
-    "prettier": "^2.5.0",
-    "typescript": "^4.5.2"
   }
 }
