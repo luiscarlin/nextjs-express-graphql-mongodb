@@ -1,5 +1,5 @@
 {
-  "name": "@demo/web",
+  "name": "@demo/website-one",
   "private": true,
   "scripts": {
     "dev": "next dev",
