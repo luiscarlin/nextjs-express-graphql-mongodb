@@ -88,15 +88,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@demo/api@workspace:packages/api":
+"@demo/api@workspace:libs/api":
   version: 0.0.0-use.local
-  resolution: "@demo/api@workspace:packages/api"
+  resolution: "@demo/api@workspace:libs/api"
   languageName: unknown
   linkType: soft
 
-"@demo/web@workspace:packages/web":
+"@demo/website-one@workspace:apps/website-one":
   version: 0.0.0-use.local
-  resolution: "@demo/web@workspace:packages/web"
+  resolution: "@demo/website-one@workspace:apps/website-one"
   dependencies:
     "@types/node": 16.11.10
     "@types/react": 17.0.37
